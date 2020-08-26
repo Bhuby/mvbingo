@@ -1,0 +1,25 @@
+* {
+	color: red;
+	font-size: 20px;
+	font-style: ;
+}
+table{
+	margin-top:248px;
+	border-spacing: 35px;
+}
+th {
+	padding-color:red;
+	padding:6px;
+	padding-top: 37px;
+	padding-left: 28px;
+	color: blue;
+}
+#background {
+	position:fixed;
+	margin-left: 400px;
+	width:150vw;
+	height:250vh;
+	background-size:500px;
+  background-image: url('Bingo1.png');
+  background-repeat: no-repeat;
+}
