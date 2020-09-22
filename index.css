@@ -1,25 +1,24 @@
 * {
-	color: red;
 	font-size: 20px;
-	font-style: ;
 }
 table{
-	margin-top:248px;
+	margin-top:280px;
 	border-spacing: 35px;
 }
 th {
-	padding-color:red;
 	padding:6px;
-	padding-top: 37px;
-	padding-left: 28px;
-	color: blue;
+	padding-top: 27px;
+	padding-left: 10px;
+	color:;
+	font-family:"Arial Narrow", sans-serif;
+
 }
 #background {
 	position:fixed;
-	margin-left: 400px;
+	margin-left: 450px;
 	width:150vw;
 	height:250vh;
-	background-size:500px;
-  background-image: url('Bingo1.png');
+	background-size:450px;
+  background-image: url('Bingo.png');
   background-repeat: no-repeat;
 }
