@@ -8,7 +8,7 @@ for(var i = 0; i < alphabet.length; i++)
 {
 	if(i == 12)
 		continue;
-	document.getElementById(alphabet[i]).textContent = myrng.int32() % 10;
+	document.getElementById(alphabet[i]).textContent = alphabet[i].toUpperCase() + Math.abs(myrng.int32() % 50);
 	//monty.charAt(i%5)
 }
 
