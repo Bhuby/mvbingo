@@ -1,10 +1,13 @@
 var searchParams = new URLSearchParams(window.location.search);
-var alphabet = "abcdefghijklnopqrstuvwxy";
+var alphabet = "abcdefghijklmnopqrstuvwxy";
 var monty = "MONTY";
 
 for(var i = 0; i < alphabet.length; i++)
 {
+	if(i == 12)
+		continue;
 	document.getElementById(alphabet[i]).textContent = monty.charAt(i%5) + searchParams.get(alphabet[i]);
+	//monty.charAt(i%5)
 }
 
 /*document.getElementById("a").textContent = searchParams.get("a");
