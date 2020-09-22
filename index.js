@@ -2,13 +2,13 @@ var searchParams = new URLSearchParams(window.location.search);
 var alphabet = "abcdefghijklmnopqrstuvwxy";
 var monty = "MONTY";
 var c = searchParams.get("seed");
-var myrng = new Math.seedrandom('hello.'); 
+var myrng = new Math.seedrandom(c); 
 
 for(var i = 0; i < alphabet.length; i++)
 {
 	if(i == 12)
 		continue;
-	document.getElementById(alphabet[i]).textContent = arng.int32() % 10;
+	document.getElementById(alphabet[i]).textContent = myrng.int32() % 10;
 	//monty.charAt(i%5)
 }
 
