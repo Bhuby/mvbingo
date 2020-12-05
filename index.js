@@ -1,6 +1,6 @@
 var searchParams = new URLSearchParams(window.location.search);
 var alphabet = "abcdefghijklmnopqrstuvwxy";
-var monty = "MONTY";
+var monty = "SNOWY";
 var c = searchParams.get("seed");
 var myrng = new Math.seedrandom(c); 
 
