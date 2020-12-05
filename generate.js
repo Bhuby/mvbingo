@@ -1,7 +1,7 @@
 var alphabet = "abcdefghijklnopqrstuvwxy";
 var numsUsed = [];
 var rand = 0;
-for(var j=0; j<189; j++){
+for(var j=0; j < 16; j++){
     var domain = "https://bhuby.github.io/mvbingo/index.html?seed=" + j;
 
     //var domain = "https://github.com/Bhuby/mvbingo/";
